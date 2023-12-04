@@ -9,8 +9,8 @@ public class Main {
         MySet setA = new MySet();
         MySet setB = new MySet();
 
-        setA.setMySetFromFile("C:\\Users\\m video\\Desktop\\1.txt", 0.6);
-        setB.setMySetFromFile("C:\\Users\\m video\\Desktop\\1.txt", 0.7);
+        setA.setMySetFromFile("../res/models.txt", 0.6);
+        setB.setMySetFromFile("../res/models.txt", 0.7);
 
         System.out.println("множество A:");
         setA.printSet();
